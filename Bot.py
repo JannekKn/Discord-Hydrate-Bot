@@ -1,5 +1,5 @@
 import discord
-from discord.ext import commands
+from discord.ext import commands,tasks
 import settings
 import mysql.connector as database
 import datetime
@@ -125,7 +125,7 @@ async def on_message(message):
             print(message.author.name + " - " + str(userid) + " wrote some crap unknown command :P")
 
 
-#@tasks.loop(seconds=1800)
+@tasks.loop(seconds=1800)
 async def sendmessage(): 
     date = str(datetime.date.today())
     now = datetime.datetime.now()
