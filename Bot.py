@@ -121,8 +121,9 @@ async def on_message(message):
             conn.close()
 
         else:
+            userid = message.author.id
             await message.channel.send(settings.MSG_UNKNOWN_COMMAND)
-            print(message.author.name + " - " + str(userid) + " wrote some crap unknown command :P")
+            print(message.author.name + " - " + str(userid) + " wrote some crap unknown command :" + usermsg)
 
 
 @tasks.loop(seconds=settings.TIMER)
