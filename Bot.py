@@ -125,7 +125,7 @@ async def on_message(message):
             print(message.author.name + " - " + str(userid) + " wrote some crap unknown command :P")
 
 
-@tasks.loop(seconds=1800)
+@tasks.loop(seconds=settings.TIMER)
 async def sendmessage(): 
     date = str(datetime.date.today())
     now = datetime.datetime.now()
