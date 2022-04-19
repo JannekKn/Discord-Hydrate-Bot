@@ -2,7 +2,9 @@
 A Discord Bot that reminds you and others to hydrate  
 --> CC0 <--  
   
-If you want to test the Bot you can join [This Test Discord](https://discord.gg/dR7QmEzpah) and DM the Hydrate Bot (only keeps working if you have at least one Mutual Server with the Bot)  
+If you want to test the Bot you can join [This Test Discord](https://discord.gg/dR7QmEzpah) and DM the Hydrate Bot  
+(only keeps working if you have at least one mutual Server with the Bot)  
+  
 If you want to invite this Bot to your Server, so you dont have to join the Test Server klick [on this invite](https://discord.com/oauth2/authorize?client_id=911762663971893258&scope=bot)
 
 ## What you need to host yourself
