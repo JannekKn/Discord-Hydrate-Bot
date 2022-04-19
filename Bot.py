@@ -138,7 +138,7 @@ async def sendmessage():
     conn = opendatabase()
     cur = conn.cursor()
 
-    cur.execute("SELECT userid FROM userlist")
+    cur.execute("SELECT userid FROM userlist WHERE active = 1")
 
     for user in cur:
         uid = "".join(user)
