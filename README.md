@@ -1,6 +1,6 @@
 # Discord-Hydrate-Bot
 A Discord Bot that reminds you and others to hydrate  
---> CC0 <--  
+Feel free to copy and change
   
 If you want to test the Bot you can join [This Test Discord](https://discord.gg/dR7QmEzpah) and DM the Hydrate Bot  
 (only keeps working if you have at least one mutual Server with the Bot)  
