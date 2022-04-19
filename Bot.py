@@ -44,7 +44,7 @@ bot = commands.Bot(command_prefix="",intents=intents)
 async def on_ready():
     print("Bot is ready!")
     await bot.change_presence(status=discord.Status.online, activity=discord.Streaming(name="to hydrated Users", url=settings.TWITCH_URL))
-
+    sendmessage.start()
 
 @bot.event
 async def on_message(message):
