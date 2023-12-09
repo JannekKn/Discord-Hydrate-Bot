@@ -29,7 +29,7 @@ Install required packages with pip
 Create Bot at the [Discord Application Page](https://discord.com/developers/applications "https://discord.com/developers/applications")
 
 ### Step 4 - DONT FORGET
-Change the settings.py file for your needs  
+Change the settings-example.py file to settings.py and change the settings in it for your needs  
 Most important the Discord Bot Token and Database Credentials  
 If you are not german or just wanna change it, change the Chat Messages and Notification Messages
 
